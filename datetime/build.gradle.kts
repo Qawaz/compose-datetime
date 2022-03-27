@@ -14,7 +14,6 @@ group = ProjectConfig.Info.group
 version = ProjectConfig.Info.version
 
 kotlin {
-    android()
     android {
         publishLibraryVariants("release")
     }
