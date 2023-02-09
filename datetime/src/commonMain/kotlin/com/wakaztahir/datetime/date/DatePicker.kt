@@ -34,10 +34,10 @@ import androidx.compose.ui.text.font.FontWeight.Companion.W600
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import com.google.accompanist.pager.ExperimentalPagerApi
-import com.google.accompanist.pager.HorizontalPager
-import com.google.accompanist.pager.PagerState
-import com.google.accompanist.pager.rememberPagerState
+import com.wakaztahir.datetime.util.pager.ExperimentalPagerApi
+import com.wakaztahir.datetime.util.pager.HorizontalPager
+import com.wakaztahir.datetime.util.pager.PagerState
+import com.wakaztahir.datetime.util.pager.rememberPagerState
 import com.wakaztahir.datetime.*
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock

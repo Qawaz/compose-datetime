@@ -1,6 +1,3 @@
-import java.util.Properties
-import java.io.FileInputStream
-
 plugins {
     kotlin("multiplatform")
     id("org.jetbrains.compose")
@@ -9,7 +6,7 @@ plugins {
 }
 
 group = "com.wakaztahir"
-version = "1.0.8"
+version = "1.0.9"
 
 kotlin {
     android {
@@ -32,7 +29,6 @@ kotlin {
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 api(compose.material3)
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
-                implementation("accompanist:pager:unspecified")
             }
         }
         val commonTest by getting {
