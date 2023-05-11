@@ -4,7 +4,7 @@
 
 - [x] JVM , Android & JS
 - [x] Material3
-- [x] Compose 1.3.0
+- [x] Compose 1.4.0
 - [x] Kotlin 1.8.0
 - [x] Kotlinx DateTime
 
